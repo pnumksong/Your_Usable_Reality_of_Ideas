@@ -3,7 +3,9 @@
 | 프로젝트 | 하는 일 | 지금 상태 |
 |---|---|---|
 
-- 처음에는 비어 있다. 새로 만들거나 Sandbox에서 승격하면 한 줄씩 더한다. 예시 넷은 `Sandbox/examples/README.md`에 있다.
+- 처음에는 비어 있다.
+- 새로 만들거나 Sandbox에서 승격하면 한 줄씩 더한다.
+- 예시 넷은 `Sandbox/examples/README.md`에 있다.
 
 ## 사용법
 
