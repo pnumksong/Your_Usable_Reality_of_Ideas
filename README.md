@@ -5,6 +5,7 @@ AI 코딩 도구와 함께 쓰는 개인 작업 공간이다. 이 작업 공간�
 ![작업 공간이 돌아가는 방식](System/workspace-flow.svg)
 
 - 본 작업 과정 체계가 부담스럽다면 Your Usable Reality of Ideas_Lite를 사용해보세요: https://github.com/pnumksong/Your_Usable_Reality_of_Ideas_Lite
+- 특강 자료(발표 PDF): https://github.com/pnumksong/Your_Usable_Reality_of_Ideas/releases/latest
 
 ## 다운로드
 
