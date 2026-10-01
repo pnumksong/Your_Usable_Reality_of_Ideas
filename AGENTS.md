@@ -13,9 +13,10 @@
 
 - `System/`: 전체 목록(`Overview.md`), 데일리 노트(`Daily/`), 주간 점검(`Weekly/`, 처음 요청할 때 만듦), 새 프로젝트의 틀(`Templates/Project/`)
 - `Data/`: 모은 데이터를 쌓아 두는 곳. 여러 프로젝트가 함께 씀
-- `Projects/`: 프로젝트마다 폴더 하나(지침 `00-rules.md`, 구상 문서 `01-plan.md`, 기록 `02-log.md`, `data/`, `reference/`, `output/`)
-- `Sandbox/`: 연습과 생각 정리를 하는 곳(`ideas.md`, `practice/`). 마음대로 고치고 지워도 됨
+- `Projects/`: 프로젝트마다 폴더 하나(지침 `00-rules.md`, 구상 문서 `01-plan.md`, 기록 `02-log.md`, `data/`, `reference/`, `output/`). 처음에는 비어 있고, 새로 만들거나 Sandbox에서 승격해 채움
+- `Sandbox/`: 연습과 생각 정리를 하는 곳(`ideas.md`, `practice/`, 예시 프로젝트 넷 `examples/`). 마음대로 고치고 지워도 됨
 - 전체 아이디어 구상과 정리는 `System/`(총괄)과 `Sandbox/`(연습)이 맡고, 실제 작업은 `Projects/`의 작업 단위로 한다
+- 총괄 대화: 하루의 시작과 마침, 새 프로젝트 만들기와 승격, 주간 점검은 한 대화(총괄)에서 하고, 실제 작업은 총괄이 써 준 시작 프롬프트를 붙여 넣은 새 대화에서 한다
 
 ## 작업 공간 규칙
 
@@ -30,7 +31,8 @@
 - 주간 점검을 요청하면 지난 7일의 데일리 노트와 각 프로젝트 기록을 읽고 끝난 것, 밀린 다음 할 일, 여러 번 나온 「의도와 다른 것」과 그것을 막을 규칙 한 줄, 한동안 쓰지 않은 프로젝트, 남긴 제출본 사본을 `System/Weekly/YYYY-Www.md`로 정리한다. 규칙을 고치는 것은 제안까지만 하고 허락받은 뒤 반영한다.
 - 새 프로젝트는 `System/Templates/Project/`를 `Projects/` 안에 복사해 만들고, `System/Overview.md`에 한 줄을 추가한다. 만들기 전에 그 프로젝트의 목표를 먼저 묻고 `01-plan.md`의 「목표」에 적는다.
 - `Sandbox/`에서 하는 요청은 연습이다. 결과는 `Sandbox/` 안에만 두고 다른 폴더는 고치지 않으며, `02-log.md`, `Data/README.md`, 데일리 노트에 기록하지 않는다. 지우라고 하면 지울 목록을 보여 주고 확인받은 뒤 지운다.
-- 연습을 프로젝트로 승격해 달라고 하면 그 프로젝트의 목표를 먼저 묻고, `System/Templates/Project/`를 `Projects/` 안에 복사해 새 프로젝트를 만들고, `Sandbox/ideas.md`의 해당 메모를 `01-plan.md`의 칸에 옮긴 뒤 빈 칸을 질문한다. 연습 결과는 그 프로젝트의 `data/`나 `output/`으로 옮기고, `System/Overview.md`에 한 줄, `02-log.md`에 「연습에서 승격」과 옮긴 파일을 기록한다. `Sandbox/`에 남은 것을 지울지는 묻는다.
+- `Projects/`의 작업은 `Sandbox/`의 파일을 읽거나 가리키지 않는다. Sandbox에 있는 것을 쓰려면 먼저 프로젝트로 승격한다.
+- 연습이나 `Sandbox/examples/`의 예시를 프로젝트로 승격해 달라고 하면 목표를 먼저 묻는다(예시는 그 구상 문서의 목표를 보여 주고 그대로 쓸지 묻는다). 예시는 그 폴더째, 연습은 `System/Templates/Project/`를 복사해 `Projects/` 안에 프로젝트를 만들고, 메모는 `01-plan.md`의 칸으로, 결과는 `data/`나 `output/`으로 옮긴다. 그 연습이 참조하던 자료(`Data/`의 파일, 참고 문헌, 주소)를 목록으로 보여 주고, 프로젝트 `02-log.md`에 「Sandbox에서 승격」과 옮긴 파일과 그 자료를 적으며, `Data/README.md`의 해당 줄과 프로젝트의 `reference/README.md`에 이 프로젝트가 쓴다는 표시를 더해 서로를 가리키게 한다. Sandbox의 원래 자리에는 「Projects/이름으로 승격함」 한 줄을 남기고, `System/Overview.md`에 한 줄을 추가한다. Sandbox에 남은 것을 지울지는 묻는다.
 
 ## 작업 규칙
 
