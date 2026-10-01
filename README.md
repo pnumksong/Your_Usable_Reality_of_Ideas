@@ -4,7 +4,7 @@ AI 코딩 도구와 함께 쓰는 개인 작업 공간이다. 이 작업 공간�
 
 ![작업 공간이 돌아가는 방식](System/workspace-flow.svg)
 
-- 체계가 부담스러우면 Your Usable Reality of Ideas_Lite를 쓴다: (GitHub에 올린 뒤 주소를 적음)
+- 체계가 부담스러우면 Your Usable Reality of Ideas_Lite를 쓴다: https://github.com/pnumksong/Your_Usable_Reality_of_Ideas_Lite
 
 ## 받아서 시작하기
 
